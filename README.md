@@ -1,5 +1,3 @@
-# React and Browserify on Rails
-===================================
 Using browserify-rails gem to hook up other NPM packages to Rails Asset Pipeline.
 
 react-rails gem here is used for its 'react_ujs' view helpers, which means we do not directly //= require react, but require() them through npm packages.
@@ -13,7 +11,7 @@ https://gist.github.com/oelmekki/c78cfc8ed1bba0da8cee#file-doc-md
 
 
 # Rails + Browserify + React + ES7
-==================================
+
 
 ## 1. Gemfile
 
