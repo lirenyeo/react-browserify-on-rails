@@ -1,14 +1,21 @@
-Using browserify-rails gem to hook up other NPM packages to Rails Asset Pipeline.
+> Using browserify-rails gem to hook up NPM packages to Rails Asset Pipeline.
 
-react-rails gem here is used for its 'react_ujs' view helpers, which means we do not directly //= require react, but require() them through npm packages.
+`react-rails` gem here is used for its 'react_ujs' view helpers, which means we do not directly //= require react, but require() them through npm packages.
+Also implemented Bootstrap js.
 
+1. `bundle` and `npm install`
+2. `rails db:create`
+3. `rails s` and visit `localhost:3000`
 
-Sources
+---
+
+Sources:
 
 https://collectiveidea.com/blog/archives/2016/04/13/rails-react-npm-without-the-pain
 https://collectiveidea.com/blog/archives/2016/03/09/modern-javascript-and-rails
 https://gist.github.com/oelmekki/c78cfc8ed1bba0da8cee#file-doc-md
 
+---
 
 # Rails + Browserify + React + ES7
 
