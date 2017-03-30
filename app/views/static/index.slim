@@ -1,0 +1,42 @@
+p Hmmm...
+.container
+  .row
+    .col-md-6
+      = react_component('TestComponent')
+
+    .col-md-6
+      .alert.alert-info.alert-dismissable
+        button.close aria-label="Close" data-dismiss="alert" type="button" 
+          span aria-hidden="true"  &times;
+        | <- That is a clock! Haha
+
+  
+  br
+
+  .row
+    .col-md-4
+      .dropdown
+        button.btn.btn-outline-danger data-toggle="dropdown"
+          | boostrap?
+        ul.dropdown-menu
+          li.dropdown-header Okay!
+          li.small Bootstrap JS is working!
+
+    .col-md-4
+      .dropdown
+        .dropdown-toggle data-toggle="dropdown"
+          | I'm clickable, you know...
+        ul.dropdown-menu
+          li calling .dropdown() in application.js
+
+    .col-md-4
+      button.btn.btn-default data-placement="bottom" data-toggle="tooltip" title=("bootstrap tether is working!") type="button"
+        | Mouse Over Me!
+
+  br
+  br
+
+.div-in-center  
+  a.btn.btn-sm.btn-warning data-content=("Super simple implementation. Simply call .popover() over this DOM. A working CSS should make this button in the center of the page") data-toggle="popover" data-trigger="focus" data-placement="bottom" role="button" tabindex="0" title=("Awesome Popover")  Magic Here!
+
+
