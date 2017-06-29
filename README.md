@@ -1,3 +1,7 @@
+### With the release of Rails 5.1, it will now make more sense to use [Webpacker](https://github.com/rails/webpacker).
+
+---
+
 > Using browserify-rails gem to hook up NPM packages to Rails Asset Pipeline.
 
 `react-rails` gem here is used for its 'react_ujs' view helpers, which means we do not directly //= require react, but require() them through npm packages.
